@@ -1,0 +1,63 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#first-sec {
+    
+    text-align: center;
+    background-color: #0ab3d2;
+    background-size: 180% 180%;
+    color: rgb(230, 53, 221);
+    font-size: x-large;
+}
+.cloud{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+.ocean{
+    border-radius: 50px;
+    height: 120px;
+    padding: 20px;
+    
+    
+}
+.blue {
+    width: 100%;
+
+}
+hr{
+    border: dotted 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;   
+}
+.about-pic{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    
+}
+
+.about-info{
+    display: flex;
+    
+    font-size: 1em;
+    color: black;
+}
+
+.footer {
+    background-color: #0ab3d2;
+}
+
+#skills {
+    background: linear-gradient(300deg, #00bfff,  #ef8172, #0ab3d2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+.sectitle{
+    text-align: center;
+}
